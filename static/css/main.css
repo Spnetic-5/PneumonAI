@@ -159,8 +159,8 @@ input[type="file"] {
     margin-top: 7px;
     margin-bottom: 4px;
     padding: 8px 20px;
-    background: #ffffff;
-    color: #000000;
+    background: #000000;
+    color: #ffffff;
     font-size: 1em;
     transition: all .4s;
     cursor: pointer;
@@ -169,8 +169,8 @@ input[type="file"] {
 }
 
 .upload-label:hover {
-    background: #000000;
-    color: #ffffff;
+    background: #ffffff;
+    color: #000000;
     border: 2px solid #ffffff;
 }
 
@@ -179,17 +179,17 @@ input[type="file"] {
     margin-top: 5px;
     margin-bottom: 3px;
     padding: 6px 16px;
-    background: #ffffff;
+    background: #00ff88;
     color: #000000;
     font-size: 1em;
     transition: all .4s;
     cursor: pointer;
     border: 2px solid #cccccc;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .predict-label:hover {
-    background: #00ff88;
+    background: #ffffff;
     color: #020202;
     border: 2px solid #000000;
 }
