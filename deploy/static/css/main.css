@@ -1,0 +1,225 @@
+/* -----------------------------------------------------------------------*/
+
+
+/*BASIC SETUP*/
+
+
+/* -----------------------------------------------------------------------*/
+
+
+/* letter-spacing: .15em; */
+
+.typewriter {
+    margin-top: 10%;
+    margin-bottom: 0%;
+    color: #f7b4ff;
+    font-size: 75px;
+    font-style: oblique;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typewriter;
+    display: inline-block;
+    position: relative;
+    animation-duration: 10s;
+    animation-timing-function: steps(25, end);
+    animation-iteration-count: infinite;
+}
+
+.typewriter::after {
+    content: "|";
+    position: absolute;
+    right: 0;
+    animation: caret infinite;
+    animation-duration: 1s;
+    animation-timing-function: steps(1, end);
+}
+
+@keyframes typewriter {
+    0%,
+    100% {
+        width: 0;
+    }
+    20%,
+    80% {
+        width: 10.2em;
+    }
+}
+
+@keyframes caret {
+    0%,
+    100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+html {
+    background-image: url('../img/piron-guillaume-vNFHg0J0wRs-unsplash.jpg');
+    background-size: cover;
+    /* <------ */
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* optional, center the image */
+    overflow-x: hidden;
+}
+
+body {
+    color: #ffb0a2;
+    font-family: 'Play', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    text-rendering: optimizeLegibility;
+    opacity: 100%;
+}
+
+.description {
+    color: #00ff62;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.clearfix {
+    zoom: 1
+}
+
+.clearfix:after {
+    /*clear float after an element*/
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+    margin: 0;
+}
+
+
+/* -----------------------------------------------------------------------*/
+
+
+/*LINKS*/
+
+
+/* -----------------------------------------------------------------------*/
+
+a:link,
+a:visited {
+    color: #ffffff;
+    text-decoration: none;
+    padding-bottom: 1px;
+}
+
+a:hover,
+a:active {
+    color: #cccccc;
+    -webkit-transition: border-bottom 0.2s, color 0.2s;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+
+/* -----------------------------------------------------------------------*/
+
+
+/*DEFAULT PART*/
+
+
+/* -----------------------------------------------------------------------*/
+
+.img-preview {
+    width: 256px;
+    height: 256px;
+    position: relative;
+    border: 5px solid #cccccc;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.img-preview>div {
+    width: 100%;
+    height: 100%;
+    background-size: 256px 256px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img-preview:hover {
+    border: 5px solid #000000;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.upload-label {
+    display: inline-block;
+    margin-top: 7px;
+    margin-bottom: 4px;
+    padding: 8px 20px;
+    background: #ffffff;
+    color: #000000;
+    font-size: 1em;
+    transition: all .4s;
+    cursor: pointer;
+    border: 2px solid #cccccc;
+    border-radius: 5px;
+}
+
+.upload-label:hover {
+    background: #000000;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+}
+
+.predict-label {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    padding: 6px 16px;
+    background: #ffffff;
+    color: #000000;
+    font-size: 1em;
+    transition: all .4s;
+    cursor: pointer;
+    border: 2px solid #cccccc;
+    border-radius: 10px;
+}
+
+.predict-label:hover {
+    background: #00ff88;
+    color: #020202;
+    border: 2px solid #000000;
+}
+
+.loader {
+    border: 8px solid #f3f3f3;
+    /* Light grey */
+    border-top: 8px solid #3498db;
+    /* Blue */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.very_main {
+    margin: auto;
+    text-align: center;
+}
+
+.final_word {
+    position: relative;
+    margin-top: 12px;
+}
