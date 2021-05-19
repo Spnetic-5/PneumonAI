@@ -1,7 +1,7 @@
 # PneumonAI
 ## A.I. based X-Ray analysis for human lungs
  <p>
- <img src="https://user-images.githubusercontent.com/66636289/117327209-feaa1000-aeaf-11eb-87c0-1f81a963e34f.png">
+ <img src="https://github.com/Spnetic-5/PneumonAI/blob/master/assets/bg.png">
 </p>
 
 ## Methodology
