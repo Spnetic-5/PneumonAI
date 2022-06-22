@@ -15,7 +15,7 @@ h5py==3.2.1
 idna @ file:///tmp/build/80754af9/idna_1593446292537/work
 Keras==2.4.3
 menuinst==1.4.16
-numpy==1.20.2
+numpy==1.22.0
 pycosat==0.6.3
 pycparser @ file:///tmp/build/80754af9/pycparser_1594388511720/work
 pyOpenSSL @ file:///tmp/build/80754af9/pyopenssl_1605545627475/work
