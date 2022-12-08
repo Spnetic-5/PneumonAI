@@ -1,6 +1,6 @@
 ﻿appdirs==1.4.4
 brotlipy==0.7.0
-certifi==2020.6.20
+certifi==2022.12.7
 cffi @ file:///C:/ci/cffi_1605538112425/work
 chardet @ file:///C:/ci/chardet_1605303225733/work
 conda==4.9.2
