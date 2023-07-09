@@ -1,4 +1,4 @@
-﻿appdirs==1.4.4
+appdirs==1.4.4
 brotlipy==0.7.0
 certifi==2022.12.7
 cffi @ file:///C:/ci/cffi_1605538112425/work
@@ -24,7 +24,7 @@ pywin32==301
 PyYAML==5.4.1
 requests @ file:///tmp/build/80754af9/requests_1592841827918/work
 ruamel-yaml==0.15.87
-scipy==1.6.3
+scipy==1.10.0
 simplejson==3.17.2
 six @ file:///C:/ci/six_1605187374963/work
 tqdm @ file:///tmp/build/80754af9/tqdm_1605303662894/work
