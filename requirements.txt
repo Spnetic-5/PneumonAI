@@ -8,7 +8,7 @@ conda-package-handling @ file:///C:/ci/conda-package-handling_1603003327818/work
 cryptography @ file:///C:/ci/cryptography_1605526388508/work
 distlib==0.3.1
 filelock==3.0.12
-gevent==21.1.2
+gevent==23.9.1
 greenlet==1.0.0
 gunicorn==20.1.0
 h5py==3.2.1
